@@ -324,7 +324,7 @@ span{
 }
 
 .email_block {
-	padding: 265px 0;
+	padding-top: 265px;
 }
 
 .email_block img {
@@ -333,7 +333,8 @@ span{
 }
 
 .email_block p {
-	margin: 60px auto;
+	margin: 0 auto;
+	width: 440px;
 	text-align: center;
 	font-size: 18px;
 }
@@ -342,8 +343,8 @@ span{
 	background-color: #fff;
 	border-radius: 5px;
 	font-size: 18px;
-	color: #c8c8c8;
-	padding: 23px;
+	padding: 0;
+	font-family: "Segoe UI", Arial, sans-serif;
 }
 
 .footer {
@@ -363,11 +364,6 @@ span{
 	padding: 0 2%;
 	font-size: 2em;
 }
-
-.fltr {
-	display: none;
-}
-
 
 
 @media only screen and (max-width: 768px) {
@@ -402,7 +398,7 @@ span{
 		padding: 30px 0;
 	}
 
-	article .flex {
+	article.flex {
 		flex-flow: column;
 	}
 
@@ -419,10 +415,6 @@ span{
 		background: red;
 	}
 
-	.photo h1 {
-		font-size: 45px;
-	}
-
     .hide {
     	display: none;
     }
@@ -435,59 +427,13 @@ span{
     	padding-bottom: 30px;
     }
 
-    .photo-title h3 {
-    	font-size: 18px;
-    }
-
     .email_block {
     	padding: 30px 0;
-    }
-
-    .email_block form {
-    	width: 98%;
-    	flex-direction: column;
-    	align-items: center;
-    }
-
-    .input {
-    	margin-bottom: 10px;
     }
 
 }
 
 @media only screen and (max-width: 320px) {
-
-	h1 {
-		font-size: 20px;
-	}
-
-	.logo img {
-		display: none;
-	}
-
-	.btn_down span {
-		padding: 5%;
-	}
-
-	.template p, .brand p, .dreams p {
-		font-size: 10px;
-		line-height: 1.2;
-	}
-
-	.photo-title h3 {
-		font-size: 14px;
-		line-height: 1.5em;
-	}
-
-	.photo h1 {
-		font-size: 25px;
-	}
-
-	.what h2 {
-		font-size: 14px;
-		padding-left: 10px;
-		padding-right: 10px;
-	}
 
 	.gallery1 {
 		flex-flow: column;
@@ -500,14 +446,6 @@ span{
 
 	.gallery2 {
 		display: none;
-	}
-
-	.photo-wall li {
-		width: 100%;
-	}
-
-	.input {
-		min-width: 300px;
 	}
 
 
